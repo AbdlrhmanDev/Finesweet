@@ -1,0 +1,143 @@
+/* X-Small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (width: 306px) {
+    .boxs {
+        flex-direction: column;
+        width: 100%;
+        margin-right: 15px;
+        top: 25rem;
+
+    }
+    .sp{
+        margin-right: 1rem;
+    
+    }
+    
+    .imgw {
+    
+        top:0;
+        right: 0;
+        left: 4rem;
+     
+    }
+   
+}
+
+@media (min-width: 576px) {
+
+    /* .header-projects img{
+        width: 100%;
+    } */
+    .img-sm {
+        width: 100%;
+    }
+
+    /* h1 {
+        font-size: 1.375rem;
+        line-height: 1.37;
+    } */
+   
+    .left-side {
+        display: block;
+    }
+    .imgw {
+    
+        top: 1.9rem;
+        right: 0;
+        left: 3rem;
+     
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    /* .header-projects img{
+        width: 100%;
+        display: block;
+    } */
+    .img-sm {
+        width: 100%;
+    }
+
+    /* h1 {
+        font-size: 1.375rem;
+        line-height: 1.37;
+    } */
+
+    a {
+        font-size: 0.2rem;
+    }
+
+    /* .questions {
+        height: 0vh;
+    } */
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    /* Themes */
+    /* h1 {
+        font-size: 3.375rem;
+        line-height: 1.37;
+    } */
+
+    h2 {
+        font-size: 1.77rem;
+        line-height: 1.333rem;
+    }
+
+
+    h5 {
+        font-size: 1rem;
+        line-height: 4.1;
+    }
+
+    h3 {
+        font-size: 2rem;
+        line-height: 1.5;
+    }
+
+    /* .questions {
+        height: 0vh;
+    } */
+
+    .boxs {
+        flex-direction: row;
+    }
+    .features {
+       
+        margin-bottom: 0;
+    }
+    .col-lg-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+        flex-wrap: nowrap;
+    }
+    .col-lg-12 {
+        flex: 0 0 auto;
+        width: 32%;
+    }
+    
+}
+
+
+/* / X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .imgw {
+    
+        top: 1.9rem;
+        right: 0;
+        left: 4rem;
+     
+    }
+}
+
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}

@@ -1,0 +1,327 @@
+/* header */
+
+/* hero heder */
+header.home .header-hero {
+    min-height: 60vh;
+}
+
+/* work */
+.work {
+    background-color: var(--bg-color-grey);
+    padding: 8rem 0;
+
+}
+
+.heder-work {
+    margin-right: 9.18rem;
+}
+
+/* header-projects */
+.header-projects {
+    padding: 10rem;
+
+}
+
+.img-full {
+    width: 100%;
+}
+
+.box-imge {
+    position: relative;
+    top: 0;
+    /* width: 60%; */
+    height: auto;
+}
+/* .overlay a{
+    color: #000;
+} */
+
+.overlay {
+    background: #1c1e538f;
+    width: 100%;
+    height: 96%;
+    top: 0;
+
+    position: absolute;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    padding-left: 15px;
+    transition: all 0.3s ease;
+}
+
+.box-imge:hover .overlay {
+    opacity: 1;
+    color: var(--color-grey-light);
+
+
+}
+.btn-s{
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--color-secondary-main);
+}
+.overlayRight {
+    height: 97%;
+    width: 0;
+    top: 0;
+
+
+}
+
+.container:hover .overlayRight {
+    width: 100%;
+}
+/*  */
+.overlays {
+    background: #1c1e538f;
+    /* width: 100%; */
+    /* height: 96%; */
+    top: 0;
+    left: 0;
+
+    position: absolute;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    padding-left: 15px;
+    transition: all 0.3s ease;
+}
+.box-imge:hover .overlays {
+    opacity: 1;
+    color: var(--color-grey-light);
+
+
+}
+.overlayRights {
+    height: 92%;
+    width: 0;
+    top: 0;
+    
+}
+
+.container:hover .overlayRights {
+    width: 50%;
+}
+/* Featers */
+.features {
+    background-color: var(--bg-color-grey);
+    padding-top: 9rem;
+    /* margin-bottom: 30rem; */
+}
+
+.features h1 {
+    width: 80%;
+    margin: auto;
+
+}
+
+.hrader-features {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+
+.card2 {
+    background-color: var(--bg-color-white);
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+/*Start Abouts */
+.About {
+    height: 40vh;
+
+    background-color: var(--color-grey-light);
+}
+
+.m-t {
+    margin-top: 8.12rem;
+}
+
+
+/* end Abouts */
+/* s questions */
+.questions {
+    /* height: 100vh; */
+    margin-top: 5rem;
+    overflow: auto;
+    
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--color-main-dark);
+    background-color: transparent;
+    box-shadow: inset 0 calc(-1* var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+
+
+.accordion-button::after {
+    background-image: url(../assets/images/+.svg);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../assets/images/+.svg);
+}
+
+.boxs {
+
+    /* margin-top: 90rem; */
+    background-color: var(--bg-color-main-dark);
+    color: aliceblue;
+
+    /* position: relative; */
+    margin-bottom: 5rem;
+
+}
+
+.img-titel {
+    position: absolute;
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left-side {
+    background-image: linear-gradient(rgba(28, 30, 83, .5), rgba(28, 30, 83, .5)), url(..//assets/images/woman-writing-on-paper-3228878.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+
+
+    /* margin-left: -15px; */
+
+
+}
+
+/* .left-img {
+    padding-top: 0rem;
+} */
+
+
+
+.row>.boxs {
+
+    padding-right: calc(var(--bs-gutter-x)* 0);
+    padding-left: calc(var(--bs-gutter-x)* 0);
+
+}
+
+
+/* e questions */
+/* s blog */
+
+.blog {
+    /* height: 60vh;
+    margin-top: 10rem; */
+    /* overflow: auto; */
+}
+.titel-blog{
+    display: block;
+}
+.blog-header{
+    color: var(--color-main-dark);
+
+    
+}
+
+/*  */
+
+.card {
+   
+    
+ 
+  
+    position: relative;
+    display: flex;
+
+    flex-direction: column;
+    min-width: 0;
+    color:unset;
+    word-wrap: break-word;
+    background-color: var(--bs-card-bg);
+    background-clip: border-box;
+    border: u;
+    /* width:26.0rem; */
+}
+
+/* e blog */
+
+
+.carousel-control-next{
+    position: absolute;
+    top: 16rem;
+    bottom: 0;
+    z-index: 1;
+    /* right: 8rem;
+    left: 0rem; */
+    margin-right: 0;
+    /* overflow: hidden; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding:0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: 1;
+    transition: opacity .15s ease;
+}
+.carousel-control-prev {
+    position: absolute;
+    top: 16rem;
+    bottom: 0;
+    z-index: 1;
+    /* left: 10rem; */
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    /* justify-content: center;
+    width: 100%; */
+    padding: 0;
+    
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: 1;
+  
+    
+}
+
+.carousel-control-next-icon {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    background-repeat: no-repeat;
+    /* background-position: 50%; */
+    /* background-size: 100% 100%; */
+    background-color: var(--color-main);
+    border-radius: 50%;
+   
+}
+.carousel-control-prev-icon{
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    background-repeat: no-repeat;
+    /* background-position: 50%; */
+    /* background-size: 100% 100%; */
+    background-color:rgb(170, 170, 170);
+    border-radius: 50%;
+}

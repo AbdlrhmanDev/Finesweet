@@ -1,0 +1,22 @@
+/* contact */
+.contact{
+    margin-top: 8rem;
+}
+.titel-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.color-contact{
+    background-color: var(--bg-color-grey);
+    margin-bottom: 10rem;
+    padding-bottom: 10rem;
+    
+}
+.text-area{
+    background: transparent;
+    border: 1px solid #d4d4d4;
+}
+

@@ -1,0 +1,29 @@
+/* work-logo  */
+.work-logo {
+
+    margin-top: 6rem;
+}
+.cards{
+    background-color: var(--bg-color-grey);
+    padding-left: 1.125rem;
+    padding-top: 1.125rem;
+}
+.header-work{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+.imges-logo{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.working{
+    margin-bottom: 6rem;
+}
+
+/* Use Client-first */
+.sec3{
+    margin-bottom: 10rem;
+}
+.sceond-sec{
+    background-color: var(--bg-color-grey);
+}

@@ -1,0 +1,120 @@
+:root {
+    /* type */
+    --font-family: "Pooppins", sans-serif;
+    --font-weight-reg: 400;
+    --font-weight-semi-bold: 600;
+    --font-weight-bold: 700;
+    --font-size-reg: 1rem;
+    --font-size-lg: 1.25rem;
+    --font-size-md: 1.25rem;
+
+    /* colors */
+    --color-main: #2405F2;
+    --color-main-dark: #1C1E53;
+    --color-main-darker: #282938;
+    --color-secondary-main: #FCD980;
+    --color-secondary-light: #fde4a6;
+    --color-grey-main: #f4f6fc;
+    --color-grey-light: #eef4fa;
+    --bg-color-main-dark: #1c1e53;
+    --bg-color-grey: #f4f6fc;
+    --bg-color-white: #fff;
+    --bg-color-whitey:#F4F5F5;
+    --bg-color-liner:#5239FA;
+    --bs-link-hover-color-rgb:#FCD980 ;
+
+
+
+    --text-color-black: #000;
+    --text-color-main: #2405f2;
+    --text-color-secondary: #FCD980;
+    --text-color-white: #fff;
+    --text-color-muted: #bbbbcb;
+
+    --color-linear: #1c1e53bc;
+    --color-grey-light-linear: #ffffffed;
+    --bs-body-bg: non;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* bootstrap */
+
+
+
+}
+
+
+/* general */
+/* type */
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size-reg);
+    line-height: 1.5;
+}
+
+h1 {
+    font-weight: var(--font-weight-reg);
+    font-size: 2.5rem;
+    line-height: 1.3;
+}
+
+h2 {
+    font-weight: var(--font-weight-semi-bold);
+    font-size: 2.66rem;
+    line-height: 1.4;
+}
+
+h5 {
+    font-weight: var(--font-weight-semi-bold);
+    font-size: 1rem;
+    line-height: 2.1;
+}
+
+.text-lg {
+    font-size: var(--font-size-lg);
+    line-height: 1.5;
+}
+
+.bg-color-main-dark {
+    background-color: var(--bg-color-main-dark) !important;
+}
+
+.text-muted {
+    color: var(--color-grey-main) !important;
+    opacity: 0.7;
+}
+
+.text-dark-blue {
+    color: var(--color-main-dark) !important;
+    opacity: 0.7;
+
+
+}
+
+.text-primary {
+    color: var(--color-main) !important;
+}
+
+.text-gray {
+    color: var(--color-main-dark) !important;
+    opacity: 0.7;
+
+}
+.text-gray-light{
+    color: var(--bg-color-main-dark) !important;
+
+}

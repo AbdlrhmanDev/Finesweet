@@ -1,0 +1,35 @@
+/* footer */
+footer {
+    background: var(--color-main-dark);
+    max-height: 90vh;
+    position: relative;
+    top: 100%;
+}
+
+.icon-footer {
+    margin-top: 4rem;
+
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+
+}
+
+.social-links img {
+    width: 1.4rem;
+}
+
+.social-links img:hover {
+
+    opacity: 0.5;
+}
+
+.info-footer {
+background-color: var(--text-color-secondary);
+margin-top: 1rem;
+padding: 1rem;
+}

@@ -1,0 +1,27 @@
+/* hero-sec */
+.hero-sec{
+    margin-top: 9rem;
+}
+.btn-blog{
+    font-size: 1rem;
+    text-align: center;
+    color: var(--color-main);
+    text-decoration: none;
+    
+}
+.p-section{
+    margin-bottom: 9rem;
+}
+
+.card {
+    
+    
+    border: unset;
+    
+}
+.card-title {
+    margin-bottom: var(--bs-card-title-spacer-y);
+    color: var(--bs-card-title-color);
+    line-height: normal;
+    margin-top: .5rem;
+}
